@@ -1,0 +1,3 @@
+﻿  DSCTHoaDon.cpp
+  C:\Users\Lenovo\Documents\GitHub\do-an-update-25-5\Check\Check\DSCTHoaDon.cpp(1009) : warning C4715: 'DSCTHoaDon::CheckTrung': not all control paths return a value
+  Check.vcxproj -> C:\Users\Lenovo\Documents\GitHub\do-an-update-25-5\Check\Debug\Check.exe

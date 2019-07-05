@@ -1,0 +1,67 @@
+# Project: QLVT
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o BackEnd.o CayNhiPhan.o ConnectFile.o console.o DanhSachTuyenTinh.o Design.o DSCTHoaDon.o DSHoaDon.o DSLienKetDon.o DSNhanVien.o DSVatTu.o MainCt.o MangConTro.o
+LINKOBJ  = main.o BackEnd.o CayNhiPhan.o ConnectFile.o console.o DanhSachTuyenTinh.o Design.o DSCTHoaDon.o DSHoaDon.o DSLienKetDon.o DSNhanVien.o DSVatTu.o MainCt.o MangConTro.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = QLVT.exe
+CXXFLAGS = $(CXXINCS) -std=c++11
+CFLAGS   = $(INCS) -std=c++11
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+BackEnd.o: BackEnd.cpp
+	$(CPP) -c BackEnd.cpp -o BackEnd.o $(CXXFLAGS)
+
+CayNhiPhan.o: CayNhiPhan.cpp
+	$(CPP) -c CayNhiPhan.cpp -o CayNhiPhan.o $(CXXFLAGS)
+
+ConnectFile.o: ConnectFile.cpp
+	$(CPP) -c ConnectFile.cpp -o ConnectFile.o $(CXXFLAGS)
+
+console.o: console.cpp
+	$(CPP) -c console.cpp -o console.o $(CXXFLAGS)
+
+DanhSachTuyenTinh.o: DanhSachTuyenTinh.cpp
+	$(CPP) -c DanhSachTuyenTinh.cpp -o DanhSachTuyenTinh.o $(CXXFLAGS)
+
+Design.o: Design.cpp
+	$(CPP) -c Design.cpp -o Design.o $(CXXFLAGS)
+
+DSCTHoaDon.o: DSCTHoaDon.cpp
+	$(CPP) -c DSCTHoaDon.cpp -o DSCTHoaDon.o $(CXXFLAGS)
+
+DSHoaDon.o: DSHoaDon.cpp
+	$(CPP) -c DSHoaDon.cpp -o DSHoaDon.o $(CXXFLAGS)
+
+DSLienKetDon.o: DSLienKetDon.cpp
+	$(CPP) -c DSLienKetDon.cpp -o DSLienKetDon.o $(CXXFLAGS)
+
+DSNhanVien.o: DSNhanVien.cpp
+	$(CPP) -c DSNhanVien.cpp -o DSNhanVien.o $(CXXFLAGS)
+
+DSVatTu.o: DSVatTu.cpp
+	$(CPP) -c DSVatTu.cpp -o DSVatTu.o $(CXXFLAGS)
+
+MainCt.o: MainCt.cpp
+	$(CPP) -c MainCt.cpp -o MainCt.o $(CXXFLAGS)
+
+MangConTro.o: MangConTro.cpp
+	$(CPP) -c MangConTro.cpp -o MangConTro.o $(CXXFLAGS)

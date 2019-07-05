@@ -1,0 +1,32 @@
+B7+Ak47+106+Cay+
+B6+C4+4+Tan+
+A1+Dinh 1mm+11+Cai+
+A2+Dinh 2mm+11+Cai+
+A4+Dinh 4mm+12+Cai+
+A5+Dinh 5mm+10+Cai+
+A7+Dinh 7mm+10+Cai+
+A8+Dinh 8mm+10+Cai+
+B2+Go+10+M+
+B9+Kar98k+40+Cay+
+B8+M4p1+175+Cay+
+B+Tan 10mm+4+Cai+
+A3+Tan 3mm+4+Cai+
+A6+Tan 6mm+4+Cai+
+A9+Tan 9mm+4+Cai+
+B3+Thiec 3mm+4+M2+
+B5+Tnt+10+Tan+
+B4+Ton 4mm+10+M2+
+B1+Xa+10+Cai+
+-
+4567ASDAS+Cu+Bin+1+4441*01011111*N*A2/1/1000/10/#9000000*01011111*N*A4/1/1000/10/#8000*01011111*N*A4/1/1000/10/#@
+2+B+C+0+@
+3+B+C+1+@
+1234+Man+Em+1+123456789*11111111*X*B7/1/1000/10/#@
+2101+Truc+Ha+0+@
+1236+Dinh+Khiem+1+@
+1239+Ho+Khoa+1+345*12022019*N*B7/3/3000/10/B6/100/10000/10/#btp*13022019*N*#@
+1235+Van+Luu+1+123*02012018*X*#dfg*11032019*N*#535453*11011111*N*B7/1/1000/10/B7/1/1000/10/#@
+1238+Iron+Man+1+utg*02012018*N*#@
+12345+Meeeeeee+Me+0+@
+ABC+Nguyen+Nhung+0+@
+70000+La+Ta+0+7700*11111111*N*A1/1/1000/10/#3300*11111111*X*B7/1/1000/10/#@
